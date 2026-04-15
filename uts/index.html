@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <section>
+        <!--NAVIGASI-->
+        <nav class="navbar navbar-expand-sm bg-success">
+            <div class="container-fluid">
+                <h1 class="text-light fs-5 my-0">RAHARJA SAWIT</h1>
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Hasil Kebun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Hubungi Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            <div class="hero position-relative">
+                <img src="download.jpg" alt="sawit" class="img-fluid w-100" style="height: 450px; object-fit: cover;">
+                    <div class="overlay-text position-absolute top-50 start-50 translate-middle text-light text-center">
+                        <h1>Nyawit Raharja</h1>
+                        <p>Mendedikasikan hidup untuk sawit</p>
+                        <button type="button" id="btnScroll" class="btn btn-warning rounded-5 fw-bold">Kenali Saya Lebih Dekat</button>
+                    </div>
+            </div>
+    </section>
+
+    <section id="tentang">
+        <!--DESKRIPSI-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-12 py-5">
+                    <img src="download.jpg" class="gambar rounded-circle img-fluid" alt="Cinque Terre">
+                </div>
+
+                <div class="col-lg-6 col-12 py-5 px-5">
+                    <h2 class="text-success fw-bold py-4">Siapa Nyawit Raharja?</h2>
+                    <p>Saya adalah seorang petani kelapa sawit yang telah bergelut di bidang perkebunan selama lebih dari 20 tahun.
+                        Berfokus di wilayah Sumatera, saya menerapkan teknik pertanian modern yang ramah lingkungan.
+                    </p>
+                    <p>  Misi saya adalah membuktikan bahwa perkebunan sawit rakyat dapat dikelola secara profesional
+                        dengan hasil panen (TBS) kualitas premium yang memenuhi standar industri global.
+                    </p>
+
+                    <div class="row d-flex align-items-center">
+                        <div class="col-4">
+                            <h3 class="fw-bold text-success fs-2">50+</h3>
+                            <p class="text-muted">Hektar Lahan</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold text-success fs-2">100%</h3>
+                            <p class="text-muted">Organik Parsial</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold text-success fs-2">25thn</h3>
+                            <p class="text-muted">Pengalaman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!--CARD-->
+        <div class="container-fluid">
+            <h2 class="text-success text-center fw-bold">Dokumentasi & Hasil Panen</h2>
+            <div class="kotak1 row d-flex align-items-center">
+                <div class="col-lg-4 col-md-6 col-12 my-4">
+                    <div class="card h-100 shadow" style="height: 200px; object-fit: cover;">
+                        <img src="istockphoto-1189621000-612x612.jpg" class="card-img-top object-fit-cover" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Pembibitan Unggul</h5>
+                            <p class="card-text">Seleksi bibi DxP berkualitas tinggi untuk menjamin produktivitas masa depan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 my-4">
+                    <div class="card h-100 shadow" style="height: 200px; object-fit: cover;">
+                        <img src="istockphoto-1189621000-612x612.jpg" class="card-img-top object-fit-cover" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Pemeliharaan Intensif</h5>
+                            <p class="card-text">Manajemen Gulma dan pemupukan tepat dosis sesuai analisis daun.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 my-4">
+                    <div class="card h-100 shadow" style="height: 200px; object-fit: cover;">
+                        <img src="istockphoto-1189621000-612x612.jpg" class="card-img-top object-fit-cover" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Panen Raya TBS</h5>
+                            <p class="card-text">Hasil panen tandan buah segar yang segar dengan rendeman minyak yang tinggi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="text-success fw-bold text-center mb-4">Hubungi Nyawit </h2>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12">
+                    <div class="kotak p-4 shadow rounded-3">
+                    
+                        <!-- Form -->
+                        <form id="formKontak">
+                        <div class="row">
+                            <!-- Nama -->
+                            <div class="col-md-6 col-12 mb-3">
+                                <label class="form-label">Nama Lengkap</label>
+                                <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama Anda">
+                            </div>
+
+                            <!-- Email -->
+                            <div class="col-md-6 col-12 mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="name@gmail.com">
+                            </div>
+
+                        </div>
+
+                            <!-- Pesan -->
+                            <div class="mb-3">
+                                <label class="form-label">Pesan / Kerjasama</label>
+                                <textarea class="form-control" id="pesan" rows="4" placeholder="Apa yang ingin Anda diskusikan?"></textarea>
+                            </div>
+
+                            <!-- Button -->
+                            <button type="submit" class="btn btn-warning w-100 fw-bold rounded-3">Kirim Pesan Sekarang </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer class="text-center text-light py-4 mt-4">
+            <p class="mb-1">&copy; 2026 Portofolio Nyawit Raharja. Semua Hak Dilindungi</p>
+            <p class="mb-0">
+                <a href="privacy.html" class="text-warning text-decoration">Kebijakan Privasi / Terms of Use</a>
+                <a href="terms.html" class="text-warning text-decoration">Syarat & Ketentuan</a>
+            </p>
+            <p style="opacity: 0.5;">Dibuat dengan semangat memajukan pertanian Indonesia</p>
+        </footer>
+    </section>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
