@@ -1,20 +1,17 @@
-@extends('template')
+@section('sidebar')
+    @parent
+@section('submenu-produk')
+@endsection
+@endsection
 
-@section('title', 'Ini Halaman Detail Produk')
+@section('content')
+<div class="container-fluid">
+    <h1 class="mb-4">{{ $title }}</h1>
 
-@section('navbar')
-    <b>Ini bisa diisi navbar</b>
-    @endsection
-
-    @section('content')
-    <h2> Ini Halaman Detail Produk </h2>
-        Nama Produk : <b>{{$product_name}}</b>
-        Id : <b>{{ $id }}</b>
-        <hr/>
-        @for ($i = 0; $i < count($product); $i++)
-            Data {{$i}} <br />
-        @endfor
-        
-    @endsection
-
-    
+    <p>Nama Produk: {{ $product['name'] }}</p>
+    <p>ID Produk: {{ $product['id'] }}</p>
+    <p>Price: Rp {{ number_format($product['price'], 0, ',', '.') }}</p>
+    <hr>
+    <a href="{{ url('/produk') }}" class="btn btn-primary">Kembali</a>
+</div>
+@endsection

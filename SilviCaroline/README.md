@@ -73,3 +73,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2. Pastikan key sudah digeneratee 
 3. Pastikan database sudah disiapkan
 4. Jalankan perintah 'php artisan serve'
+
+## CONTROLLER DIGUNNAKAN JIKA HALAMANNYA SUDAH BANYAK 
